@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Project specific
+Input/
+*.pdf
+*.xlsx
+*.png
+.env
+config.json
+
+# Output folders
+01_Full_Text/
+02_Separated_Text/
+03_Separated_PDFs/
+04_Excel_Output/
+05_Categorized_Docs/
+06_Cropped_Images/
+Archive/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# API Keys
+*.key
+secrets.json
